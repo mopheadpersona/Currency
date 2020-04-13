@@ -1,0 +1,73 @@
+body {
+	font-family: "Futura", sans-serif;
+	font-size: 2.5rem;
+	font-weight: 100;
+	background-color: #f7f7f7;
+}
+
+.rate {
+	margin: 1.5rem;
+}
+
+.rate__component {
+	width: 40rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	height: 5rem;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin-bottom: .5rem;
+	padding: .5rem;
+  	cursor: pointer;
+
+}
+.rate__component--key {
+  width: 3rem;
+}
+
+.rate__component:hover {
+  background-color: black;
+  color: tomato;
+  border: 2px solid tomato;
+}
+
+.date {
+	display: inline-block;
+	font-size: 1.7rem;
+	font-weight: 500;
+	background-color: #f7f7f7;
+	color: black;
+	line-height: 1.3;
+	padding: .6em 1.4em .5em .8em;
+	box-sizing: border-box;
+	margin: 0;
+	border: 1.5px solid black;
+	box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+	border-radius: 5px;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+}
+.date:hover {
+	background-color: black;
+	color: tomato;
+	border: 1.5px solid tomato;
+}
+
+.btn {
+	background-color: #f7f7f7;
+	color: black;
+	padding: .6em 1.4em .5em .8em;
+	margin: 0;
+	font-size: 1.7rem;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.btn:hover {
+	background-color: black;
+	color: tomato;
+	border: 2px solid tomato;
+}
